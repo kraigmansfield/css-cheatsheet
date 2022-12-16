@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+header h1{
+    color: purple;
+}
+
+header p{
+    color: white;
+}
+
+material {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 20px;
+    padding: 20px;
+    margin: 20px;
+    color: purple;
+}
+
+.card {
+    border: 1px dotted purple;
+    padding: 20px;
+    width: 500px;
+
+}
+
+.card h2 {
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px dotted purple
+    margin: 5px 30px;
+    position: relative;
+    bottom: 34px
+}
+
+.card p {
+    color: black
+    font-size: small;
+    text-align: center;
+}
+
+
+
+
+
+
+/* @media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  /* @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  } */
